@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    padding: 0 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu .item {
+    margin: 0 25px;
+}
+.menu .item a {
+    color: black;
+    text-decoration: none;
+}
+
+.action {
+    display: flex;
+}
+.action .item {
+    margin-left: 20px;
+}
+.action .item img {
+    width: 40px;
+    height: 40px;
+}
+
+.banner {
+    width: 100%;
+    background-image: url(./picture/banner.jpg);
+    height: 460px;
+    margin-top: 40px;
+    display: flex;
+    padding: 0 130px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.banner .content h2 {
+    font-size: 50px;
+    margin-top: 70px;
+    color: #fff;
+}
+.banner .content p {
+    color: #d0d0d0;
+    font-size: 20px;
+}
+.banner .content button {
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+    background: #1d1a1a;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.banner .content button:hover{
+    background: red;
+}
+
+.product {
+    padding-top: 110px;
+    padding-bottom: 80px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+.product h2 {
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 30px;
+    color: #626a67;
+}
+.list-product {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.list-product .item {
+    width: 290px;
+    height:320px;
+    background: #362f2f;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-right: 30px;
+}
+.list-product .item img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 17px;
+}
+.list-product .item .name {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.list-product .item .desc{
+    text-align: center;
+    color: #fff;
+}
+.list-product .item .price {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.listPage {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.listPage .item{
+    margin: 0 20px;
+    width: 40px;
+    height: 40px;
+    background: #363f2f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listPage .item a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.saleOff{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    height: 320px;
+}
+.saleOff .box-left, .saleOff .box-right{
+    width: 50%;
+}
+.saleOff .box-left {
+    background: #3e413e;
+    text-align: center;
+    min-height: 320px;
+}
+.saleOff .box-left h1 {
+    padding-top: 40px;
+}
+.saleOff .box-left h1 span:nth-child(1) {
+    color: #fff;
+    font-size: 50px;
+}
+.saleOff .box-left h1 span:nth-child(2) {
+    color: orange;
+    font-size: 130px;
+}
+.saleOff .box-right {
+    background-image: url("./picture/sale.png");
+}
+
+.comment {
+    width: 1012px;
+    height: 478px;
+    margin:0px auto;
+    margin-top:184px;
+    margin-bottom: 50px;
+}
+
+.comment h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size:32px;
+    color:#626a67;
+}
+
+
+.comment-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 300px;
+    list-style: none;
+    overflow: hidden;
+}
+
+.list-comment {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    transition:0.5s;
+}
+
+.list-comment .item {
+    width: 100%;
+    height: 100%;
+    background:#362f2f;
+    padding-top:50px;
+}
+
+.list-comment .item .avatar {
+    margin-left: 395px;
+    margin-top:13px;
+}
+.list-comment .item .name {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color:#fff;
+}
+
+.list-comment .item .text {
+    padding:20px 50px;
+    color:#fff;
+   
+}
+footer {
+    width:100%;
+    background-color:#626a67;
+    display: flex;
+    padding: 50px 50px;
+}
+footer .logo {
+    margin-left: 80px;
+    color: orange;
+    font-size: 50px;
+    margin-top: 30px;
+}
+footer ul {
+    margin-left: 300px;
+    list-style: none;
+}
+footer ul .title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+footer ul li {
+    margin-bottom: 10px;
+}
+footer .back-to-top {
+    color: orange;
+    margin-left: 200px;
+    margin-top: 30px;
+    font-size: 30px;
+}
